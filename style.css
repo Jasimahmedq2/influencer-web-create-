@@ -1,0 +1,80 @@
+/*---------
+   fonts
+ ---------- */
+ @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,500&display=swap');
+
+
+/*-----------------
+   common style
+ ------------------ */
+ body{
+    background-color: #ffff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+  
+
+}
+
+
+/* ---------------
+   header style
+------------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{margin-left: 50px;}    
+.nav-menu ul{
+    display: flex;
+     
+}    
+
+.nav-menu{
+    display: flex;
+    margin-right: 30px;
+}
+.nav-menu li{
+    list-style: none;
+    margin-right: 20px;
+     
+
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+/*-------------------
+      section a style
+-------------------- */
+
+.top-contant{
+    display: flex;
+     
+}
+.text-title{
+    margin-left: 50px;
+    width: 450px;
+    height: 200px;
+}
+.text-title a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(248, 26, 26);
+    border-radius: 5px;
+     
+}
+
+.title-imag{
+    margin-left: 50px;
+}
+ 
+ 
+.title-imag img{
+    width: 80%;
+}
