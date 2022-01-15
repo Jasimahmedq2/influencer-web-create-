@@ -10,16 +10,21 @@
  body{
     background-color: #ffff;
     font-family: 'Be Vietnam Pro', sans-serif;
-  
-
 }
+ main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
 
+ 
+ 
 
 /* ---------------
    header style
 ------------------- */
-header{
-    display: flex;
+header{display: flex;
+    
     justify-content: space-between;
 }
 .header-title{margin-left: 50px;}    
@@ -54,7 +59,7 @@ header{
 -------------------- */
 
 .top-contant{
-    display: flex;
+   display: flex;
      
 }
 .text-title{
@@ -62,19 +67,122 @@ header{
     width: 450px;
     height: 200px;
 }
-.text-title a{
+.anchor,.anchor-b{
     text-decoration: none;
     color: white;
-    background-color:rgb(248, 26, 26);
+   background-color: blue;
     border-radius: 5px;
      
 }
-
-.title-imag{
-    margin-left: 50px;
-}
+ 
  
  
 .title-imag img{
-    width: 80%;
+    width: 70%;
+    margin-left: 70px;
 }
+/* section-b style start */
+.container-b{
+     
+    width: 750px;
+    height: 1250px;
+    justify-content: center;
+    
+
+
+}
+.main-container{
+   display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+  
+    
+     
+    
+}
+.sub-container{
+    width: 230px;
+    height: 400px;
+   
+    margin-bottom: 10px;
+     border-radius: 5px ;
+     background-color: #ffff;
+      
+    
+}
+.imag-container img{
+    width: 100%;
+}
+.info-container{
+    width: 100%;
+}
+.anchor-b{
+      margin-left: 140px;
+}
+.star-span{
+    display: flex;
+}
+.star{
+    color: goldenrod;
+}
+.span{
+    margin-left: 15px;
+}
+.footer{
+    width: 250px;
+     margin-left: 40%;
+     color: whitesmoke;
+      
+}
+footer{
+    background-color: black;
+}
+h2{
+    animation: animation 3s  0.3s 3 ;
+}
+
+/*------------ 
+@mediaquary
+--------------*/
+@media only screen and (max-width:450px) {
+    header{
+        display: block;
+    }
+    main{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-contant{
+        display: block;
+    }
+     .text-title{
+         width: 300px;
+     }
+     .nav-menu ul{
+        display: none;
+         
+    }
+    .sub-container{
+        display: block;
+    }
+    .main-container{
+        display: block;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        width: 200px;
+    }
+    footer{
+        background-color: grey;
+       
+    }
+
+    
+      
+    
+}
+ 
