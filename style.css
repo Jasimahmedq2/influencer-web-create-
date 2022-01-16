@@ -81,6 +81,11 @@ header{display: flex;
     width: 70%;
     margin-left: 70px;
 }
+.title-imag:hover img{
+     transform: rotate(60deg);
+     
+}
+
 /* section-b style start */
 .container-b{
      
